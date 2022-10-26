@@ -1,4 +1,5 @@
 const asyncHandler = require('express-async-handler')
+const { db } = require('../models/userModel')
 const User = require('../models/userModel')
 
 // This is a controller that gets users from a website. 
